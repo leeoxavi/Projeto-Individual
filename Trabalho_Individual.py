@@ -17,11 +17,11 @@ def buscar_candidatos(lista_candidatos, nota_minima_e, nota_minima_t, nota_minim
     return candidatos_selecionados
 
 candidatos = [
-    Candidato("Candidato 1", 4, 4, 8, 8),
-    Candidato("Candidato 2", 3, 5, 7, 9),
-    Candidato("Candidato 3", 5, 6, 6, 7),
-    Candidato("Candidato 4", 6, 7, 5, 6),
-    Candidato("Candidato 5", 4, 3, 8, 8)
+    Candidato("Candidato 1", 5, 10, 8, 8),
+    Candidato("Candidato 2", 10, 7, 7, 9),
+    Candidato("Candidato 3", 8, 5, 4, 9),
+    Candidato("Candidato 4", 2, 2, 2, 1),
+    Candidato("Candidato 5", 10, 10, 8, 9)
 ]
 nota_minima_e = int(input("Digite a nota mínima em Entrevista: "))
 nota_minima_t = int(input("Digite a nota mínima em Teste Teórico: "))
